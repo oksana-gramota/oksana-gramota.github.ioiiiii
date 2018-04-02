@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: LightSlateGray;
+    height: 174px;
+    font-size: 0,8em;
+   margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+.main, .logo, .menubar, .site_content, .footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 880px;
+    padding-bottom: 40px;
+    
+} 
+.logo h1, .logo h2{
+    font :tnormal 300% 'century gothic', arial, sans-serif;
+margin: 0 0 0 9px;
+}
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+    padding: 22px 0 0 0;
+    color:#fff;
+    letter-spacing: 0.4em;
+    text-decoration: none;
+}
+.logo_text h2 {
+font-size: 0.9em;
+padding: 4px 0 0 0;
+color: #999;
+}
+.menubar{
+    width: 900px;
+    height: 46px;
+}
+ul.menu{
+    float: right;
+}
+ul.menu li{
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+ul.menu li a {
+    font: normal 100% 'trebuchat ms' sans-serif;
+    display: block; 
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: #e4ec04;
+}
+.text  {
+    margin-top: 60px;
+   padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 0.09em;
+    color: black;
+    font-style: italic; 
+}
+.line{
+    width:1900px;
+border-top:4px solid #9EC1D4;
+margin-top: 60px;
+padding-left:10px
+}
+.line p{
+    font-style: italic; 
+}
+
+a:hover{
+    text-decoration: none;
+}
+.katalog h1{
+    font-style: italic;
+}
+.katalog {
+    width: 726px; 
+
+    margin: 30px auto ;
+}
+.product-main{
+    
+}
+.product{
+    border-left: 1px solid #aeb002;
+    border-right: 1px solid #aeb002;
+}
+.product h2{
+    text-align: center;
+    font-style: italic;
+}
+.product-img{
+    text-align: center;
+}
+.bot-dog{
+    border-bottom: 1px solid #aeb002;
+}
